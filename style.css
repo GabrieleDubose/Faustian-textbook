@@ -1,0 +1,35 @@
+/* 1. MOBILE FIRST — default styles */ 
+.game { 
+  width: 100%; 
+  padding: 1rem; 
+} 
+ 
+.game-title { 
+  font-size: 2rem; 
+} 
+ 
+ 
+/* 2. TABLET / md — 768px and wider */ 
+@media (min-width: 768px) { 
+  .game { 
+    padding: 1.5rem; 
+  } 
+ 
+  .game-title { 
+    font-size: 3rem; 
+  } 
+} 
+ 
+ 
+/* 3. DESKTOP / xl — 1200px and wider */ 
+@media (min-width: 1200px) { 
+  .game { 
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 2rem; 
+  } 
+ 
+  .game-title { 
+    font-size: 4rem; 
+  } 
+} 
